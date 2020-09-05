@@ -1,0 +1,12 @@
+@keyframes fadeInLockFileVersion {
+  from { opacity: 0; }
+  to { opacity: .5; }
+}
+
+[data-lock-file-version]::after {
+  content: attr(data-lock-file-version);
+  opacity: .5;
+  position: relative;
+  left: 1rem;
+  animation: fadeInLockFileVersion 1s ease-out 0s 1;
+};

@@ -1,0 +1,14 @@
+{
+  "name": "atom-lock-file-version-display",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Show version information from lock files beside dependency declarations",
+  "keywords": ["composer.json", "composer.lock", "package.json", "package-lock.json"],
+  "repository": "https://github.com/fredden/atom-lock-file-version-display",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.50"
+  },
+  "dependencies": {
+  }
+}
