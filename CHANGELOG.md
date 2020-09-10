@@ -1,3 +1,6 @@
+## 1.0.3 - Bugfix
+* Catch error when an editor is opened with no file.
+
 ## 1.0.2 - Bugfix
 * Replace CSS selector with `.element` getter on TextEditor object. The selector introduced in v1.0.1 was fragile and caused errors. This replaces the selector with a different (more robust) approach.
 
