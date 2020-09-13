@@ -1,3 +1,6 @@
+## 1.1.0 - Feature
+* Add support for package.json / package-lock.json
+
 ## 1.0.3 - Bugfix
 * Catch error when an editor is opened with no file.
 
